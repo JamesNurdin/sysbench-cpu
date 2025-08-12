@@ -1,0 +1,15 @@
+nodes:
+  - "idagpu-18"
+
+RUN_NAME: "Test"
+
+resources:
+  cpu: "4"
+  memory: "2Gi"
+
+iterations: 5
+
+duration: 60
+
+#helm install fio-bench . -n pgr24james -f values.yaml
+
