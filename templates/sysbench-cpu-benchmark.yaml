@@ -57,11 +57,11 @@ spec:
 
       resources:
         equests:
-          cpu: { { .Values.resources.cpu } }
-          memory: { { .Values.resources.memory } }
+          cpu: {{ .Values.resources.cpu }}
+          memory: {{ .Values.resources.memory }}
           limits:
-            cpu: { { .Values.resources.cpu } }
-            memory: { { .Values.resources.memory } }
+            cpu: {{ .Values.resources.cpu }}
+            memory: {{ .Values.resources.memory }}
       securityContext:
         capabilities:
           drop: ["MKNOD"]
