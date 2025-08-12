@@ -56,7 +56,7 @@ spec:
           mountPath: /mnt/primary/
 
       resources:
-        equests:
+        requests:
           cpu: {{ .Values.resources.cpu }}
           memory: {{ .Values.resources.memory }}
           limits:
