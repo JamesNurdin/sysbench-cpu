@@ -27,7 +27,10 @@
       ]
     },
     "iterations": {
-      "type": "integer"
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
     },
     "duration": {
       "type": "integer"
