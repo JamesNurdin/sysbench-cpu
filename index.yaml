@@ -3,12 +3,12 @@ entries:
   sysbench-cpu:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-22T04:26:57.3449122+01:00"
+    created: "2025-10-22T11:59:23.0485429+01:00"
     description: A Helm chart for Kubernetes
-    digest: 1f74d8defd91a39458851b7d88a82d8df5dfb45ada87c1d7f07201e856ad41b8
+    digest: 6e2547b52465fb166a64febca12d3f3c3a47c843deebb46d81947f4e5caa59c8
     name: sysbench-cpu
     type: application
     urls:
     - https://JamesNurdin.github.io/sysbench-cpu/sysbench-cpu-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-22T04:26:57.3437886+01:00"
+generated: "2025-10-22T11:59:23.0475208+01:00"
